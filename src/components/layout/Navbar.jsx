@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useLang } from '../../context/LanguageContext';
 import { t } from '../../data/translations';
+import logo from "../../assets/images/logo.png"
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -22,7 +23,7 @@ export default function Navbar() {
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-2">
                     <img
-                        src="/src/assets/images/logo.png"
+                        src={logo}
                         alt="IMPACTIS GROUP"
                         className="h-11 w-11"
                     />
