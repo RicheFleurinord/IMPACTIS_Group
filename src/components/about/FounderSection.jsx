@@ -53,7 +53,6 @@ export default function FounderSection() {
                             {f.name[lang]}
                         </h2>
                         <p className="text-gold text-sm mb-8">{f.role[lang]}</p>
-                        <p className="text-gray-400 leading-relaxed mb-4">{f.bio1[lang]}</p>
                         <p className="text-gray-400 leading-relaxed">{f.bio2[lang]}</p>
                     </motion.div>
 

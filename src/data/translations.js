@@ -1,3 +1,11 @@
+import riche from "../assets/images/riche.jpeg";
+import mika from "../assets/images/micka.jpeg";
+import davidson from "../assets/images/davidson.png";
+import dalida from "../assets/images/dalida.jpeg";
+import newton from "../assets/images/newton.png";
+import abdielson from "../assets/images/abdielson.jpeg";
+
+
 export const t = {
     nav: {
         home: { fr: "Accueil", en: "Home" },
@@ -11,7 +19,7 @@ export const t = {
         title1: { fr: "Construire des startups", en: "Building AI-powered" },
         title2: { fr: "alimentées par l'IA", en: "startups for" },
         title3: { fr: "pour les marchés émergents", en: "emerging markets" },
-        sub: { fr: "Nous concevons, développons et lançons des startups technologiques alimentées par l'IA pour transformer Haïti et les marchés émergents.", en: "We design, develop and launch AI-powered startups to transform Haiti and emerging markets." },
+        sub: { fr: "IMPACTIS Group est un AI Venture Studio et cabinet de conseil technologique qui conçoit, développe et lance des startups alimentées par l’intelligence artificielle pour transformer Haïti et les marchés émergents. Le groupe s’appuie sur deux piliers complémentaires : un Venture Studio dédié à la création de startups à fort impact social, et un cabinet spécialisé en Data Science et IA offrant des services de recherche, modélisation prédictive et automatisation de processus", en: "MPACTIS Group is an AI Venture Studio and technology consulting firm that designs, develops, and launches AI-powered startups to transform Haiti and emerging markets. The group is built on two complementary pillars: a Venture Studio dedicated to creating high-impact social startups, and a Data Science and AI consulting firm offering research, predictive modeling, and process automation services.." },
         btn1: { fr: "Voir nos Startups", en: "See our Startups" },
         btn2: { fr: "Nous contacter", en: "Contact us" },
         stat1: { fr: "Startups en développement", en: "Startups in development" },
@@ -79,9 +87,8 @@ export const t = {
             tag: { fr: "Le Fondateur", en: "The Founder" },
             name: { fr: "Riché FLEURINORD", en: "Riché FLEURINORD" },
             role: { fr: "Founder & CEO — Startup Expert", en: "Founder & CEO — Startup Expert" },
-            photo: "/src/assets/images/riche.jpeg",
+            photo: riche,
             linkedin: "https://www.linkedin.com/in/richefleurinord/",
-            bio1: { fr: "IMPACTIS Group opere sur deux piliers complementaires : un Venture Studio qui cree et lance de bout en bout des entreprises technologiques a fort potentiel social, et un Cabinet de Conseil specialise en Data Science et Intelligence Artificielle — offrant des services de recherche, modelisation predictive et automatisation de processus.", en: "IMPACTIS Group operates on two complementary pillars: a Venture Studio that creates and launches end-to-end tech companies with strong social potential, and a specialized consulting firm in Data Science and AI — offering research, predictive modeling and process automation services." },
             bio2: { fr: "Economiste-statisticien de formation, Riché FLEURINORD possede une expertise avancee en data science, intelligence artificielle et finance quantitative. Il supervise la conception et le deploiement des systemes backend, frontend ainsi que des solutions IA a travers l'ensemble des projets du groupe.", en: "Trained as an economist-statistician, Riché FLEURINORD has advanced expertise in data science, artificial intelligence and quantitative finance. He oversees the design and deployment of backend, frontend systems and AI solutions across all group projects." },
         },
         history: {
@@ -126,7 +133,7 @@ export const t = {
                 {
                     name: "Micka LOUIS",
                     initials: "ML",
-                    photo: "/src/assets/images/micka.jpeg",
+                    photo: mika,
                     linkedin: "https://www.linkedin.com/in/mickalouis/",
                     role: { fr: "Co-Founder & COO", en: "Co-Founder & COO" },
                     dept: { fr: "Head of Operations & Strategy", en: "Head of Operations & Strategy" },
@@ -135,7 +142,7 @@ export const t = {
                 {
                     name: "Davidson RIGAUD",
                     initials: "DR",
-                    photo: "/src/assets/images/davidson.png",
+                    photo: davidson,
                     linkedin: "https://www.linkedin.com/in/rigauddavidson65/",
                     role: { fr: "Co-Founder & CTO", en: "Co-Founder & CTO" },
                     dept: { fr: "Communication & Analytics Lead", en: "Communication & Analytics Lead" },
@@ -144,7 +151,7 @@ export const t = {
                 {
                     name: "Dalida FRANCOIS",
                     initials: "DF",
-                    photo: "/src/assets/images/dalida.jpeg",
+                    photo: dalida,
                     linkedin: "https://www.linkedin.com/in/dalida-fran%C3%A7ois-24ba5832b/",
                     role: { fr: "Co-Founder", en: "Co-Founder" },
                     dept: { fr: "Head of Technology & Innovation", en: "Head of Technology & Innovation" },
@@ -162,7 +169,7 @@ export const t = {
                 {
                     name: "Newton FANFAN",
                     initials: "NF",
-                    photo: "/src/assets/images/newton.png",
+                    photo: newton,
                     linkedin: "https://www.linkedin.com/in/newton-fanfan/",
                     role: { fr: "Co-Founder", en: "Co-Founder" },
                     dept: { fr: "Financial & Business Strategy", en: "Financial & Business Strategy" },
@@ -200,7 +207,7 @@ export const t = {
                 {
                     name: "Abdielson LYVERT",
                     initials: "AL",
-                    photo: "/src/assets/images/abdielson.jpeg",
+                    photo: abdielson,
                     linkedin: "https://www.linkedin.com/in/abdielson-lyvert-99068a243/",
                     role: { fr: "Membre", en: "Member" },
                     dept: { fr: "BI & Technical Support Consultant", en: "BI & Technical Support Consultant" },
