@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useLang } from '../../context/LanguageContext';
 import { t } from '../../data/translations';
+import logo from "../../assets/images/logo.png"
 
 export default function Footer() {
     const { lang } = useLang();
@@ -22,7 +23,7 @@ export default function Footer() {
                     <div>
                         <Link to="/" className="flex items-center gap-1 mb-4">
                             <img
-                                src="/src/assets/images/logo.png"
+                                src={logo}
                                 alt="IMPACTIS GROUP"
                                 className="h-14 w-auto"
                             />
