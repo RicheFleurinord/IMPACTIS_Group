@@ -52,22 +52,18 @@ export const t = {
         sub: { fr: "Nous intervenons dans des secteurs stratégiques où la technologie peut créer le plus grand impact.", en: "We operate in strategic sectors where technology can create the greatest impact." },
         items: [
             {
-                icon: ai,
                 title: { fr: "Intelligence Artificielle", en: "Artificial Intelligence" },
                 desc: { fr: "Développement de solutions IA adaptées aux réalités des marchés émergents.", en: "Developing AI solutions tailored to the realities of emerging markets." },
             },
             {
-                icon: fintech,
                 title: { fr: "Fintech & Inclusion", en: "Fintech & Inclusion" },
                 desc: { fr: "Services financiers accessibles pour les populations non bancarisées.", en: "Accessible financial services for unbanked populations." },
             },
             {
-                icon: education,
                 title: { fr: "Éducation & Formation", en: "Education & Training" },
                 desc: { fr: "Plateformes d'apprentissage intelligentes pour démocratiser l'accès au savoir.", en: "Smart learning platforms to democratize access to knowledge." },
             },
             {
-                icon: responsability,
                 title: { fr: "Impact Social", en: "Social Impact" },
                 desc: { fr: "Chaque startup conçue pour résoudre un problème réel et créer un changement durable.", en: "Every startup designed to solve a real problem and create lasting change." },
             },

@@ -2,8 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { useLang } from '../context/LanguageContext';
-import { t } from '../data/translations';
-
+import { t } from '../data/translations'
 export default function ServicesSection() {
   const { lang } = useLang();
   const s = t.services_page;
