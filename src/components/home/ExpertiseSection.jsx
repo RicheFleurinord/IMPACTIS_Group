@@ -38,7 +38,13 @@ export default function ExpertiseSection() {
                             transition={{ duration: 0.5, delay: i * 0.1 }}
                             className="bg-navy border border-white/10 rounded-2xl p-6 hover:border-gold/40 hover:-translate-y-1 transition-all duration-300"
                         >
-                            <div className="text-4xl mb-4">{item.icon}</div>
+                            <div className="mb-4">
+                                {typeof item.icon === 'string' && item.icon.match(/\.(png|jpe?g|svg|webp)$/i) ? (
+                                    <img src={item.icon} alt={item.title[lang] ?? ''} className="w-12 h-12 object-contain mx-auto" />
+                                ) : (
+                                    <div className="text-4xl text-center">{item.icon}</div>
+                                )}
+                            </div>
                             <h3 className="font-display text-white font-bold text-lg mb-3">
                                 {item.title[lang]}
                             </h3>

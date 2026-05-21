@@ -6,6 +6,13 @@ export default function AboutSection() {
     const { lang } = useLang();
     const a = t.about;
 
+    const getText = (value) => {
+        if (value && typeof value === 'object') {
+            return value[lang] ?? value.fr ?? value.en ?? '';
+        }
+        return value ?? '';
+    };
+
     return (
         <section className="bg-navy py-24 px-6">
             <div className="max-w-6xl mx-auto">
@@ -58,14 +65,14 @@ export default function AboutSection() {
                     >
                         {a.values.map((v, i) => (
                             <motion.div
-                                key={v.title}
+                                key={typeof v.title === 'object' ? getText(v.title) : v.title}
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.4, delay: i * 0.1 }}
                                 className="bg-navy-dark border border-white/10 rounded-xl p-5 hover:border-gold/30 transition-colors"
                             >
-                                <p className="text-gold font-display font-bold mb-2">{v.title}</p>
+                                <p className="text-gold font-display font-bold mb-2">{getText(v.title)}</p>
                                 <p className="text-gray-500 text-sm leading-relaxed">{v[lang]}</p>
                             </motion.div>
                         ))}

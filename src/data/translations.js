@@ -4,13 +4,18 @@ import davidson from "../assets/images/davidson.png";
 import dalida from "../assets/images/dalida.jpeg";
 import newton from "../assets/images/newton.png";
 import abdielson from "../assets/images/abdielson.jpeg";
+import ai from "../assets/icons/ai.png";
+import fintech from "../assets/icons/fintech.png";
+import responsability from "../assets/icons/responsability.png";
+import education from "../assets/icons/education.png";
 
 
 export const t = {
-    nav: {
+   nav: {
         home: { fr: "Accueil", en: "Home" },
         about: { fr: "À propos", en: "About" },
         startups: { fr: "Startups", en: "Startups" },
+        services: { fr: "Services", en: "Services" },
         contact: { fr: "Contact", en: "Contact" },
         cta: { fr: "Nous rejoindre", en: "Join us" },
     },
@@ -29,7 +34,7 @@ export const t = {
     about: {
         tag: { fr: "Qui sommes-nous", en: "Who we are" },
         title: { fr: "À propos d'IMPACTIS Group", en: "About IMPACTIS Group" },
-        sub: { fr: "Né de la vision de Riché FLEURINORD, IMPACTIS Group est un AI Venture Studio haitien dédié a l'innovation technologique et a l'impact social. Plus qu'une simple entreprise, nous sommes une manufacture de solutions : nous concevons, developpons et propulsons des startups basees sur l'IA pour resoudre les défis structurels en Haiti et dans les marchés émergents. Cette ambition, portée dès l'origine par Micka LOUIS et une équipe de jeunes talents visionnaires, vise a transformer des secteurs clés tels que la Fintech, l'éducation et la transition numérique.", en: "Born from the vision of Riché FLEURINORD, IMPACTIS Group is a Haitian AI Venture Studio dedicated to technological innovation and social impact. More than a simple company, we are a solution factory: we design, develop and propel AI-based startups to solve structural challenges in Haiti and emerging markets. This ambition, carried from the start by Micka LOUIS and a team of young visionary talents, aims to transform key sectors such as Fintech, education and digital transition." },
+        sub: { fr: "Né de la vision de Riché FLEURINORD, IMPACTIS Group est un AI Venture Studio haïtien dédié à l'innovation technologique et à l'impact social. Plus qu'une simple entreprise, nous sommes une manufacture de solutions : nous concevons, développons et propulsons des startups basées sur l'IA pour résoudre les défis structurels en Haïti et dans les marchés émergents. Cette ambition, portée dès l'origine par Micka LOUIS et une équipe de jeunes talents visionnaires, vise à transformer des secteurs clés tels que la Fintech, l'éducation et la transition numérique.", en: "Born from the vision of Riché FLEURINORD, IMPACTIS Group is a Haitian AI Venture Studio dedicated to technological innovation and social impact. More than a simple company, we are a solution factory: we design, develop and propel AI-based startups to solve structural challenges in Haiti and emerging markets. This ambition, carried from the start by Micka LOUIS and a team of young visionary talents, aims to transform key sectors such as Fintech, education and digital transition." },
         missionTitle: { fr: "Notre Mission", en: "Our Mission" },
         missionText: { fr: "Concevoir, développer et lancer des startups alimentées par l'IA capables de résoudre des problèmes structurels et de créer un impact durable dans les marchés émergents.", en: "Design, develop and launch AI-powered startups capable of solving structural problems and creating lasting impact in emerging markets." },
         visionTitle: { fr: "Notre Vision", en: "Our Vision" },
@@ -37,7 +42,7 @@ export const t = {
         values: [
             { title: "Innovation", fr: "Nous repoussons les limites du possible avec l'IA.", en: "We push the boundaries of what's possible with AI." },
             { title: "Impact", fr: "Chaque solution crée un changement réel et durable.", en: "Every solution creates real and lasting change." },
-            { title: "Intégrité", fr: "Transparence et éthique dans tout ce que nous faisons.", en: "Transparency and ethics in everything we do." },
+            { title: { fr: "Intégrité", en: "Integrity" }, fr: "Transparence et éthique dans tout ce que nous faisons.", en: "Transparency and ethics in everything we do." },
             { title: "Collaboration", fr: "Ensemble, nous construisons plus fort et plus vite.", en: "Together, we build stronger and faster." },
         ],
     },
@@ -47,22 +52,22 @@ export const t = {
         sub: { fr: "Nous intervenons dans des secteurs stratégiques où la technologie peut créer le plus grand impact.", en: "We operate in strategic sectors where technology can create the greatest impact." },
         items: [
             {
-                icon: "🤖",
+                icon: ai,
                 title: { fr: "Intelligence Artificielle", en: "Artificial Intelligence" },
                 desc: { fr: "Développement de solutions IA adaptées aux réalités des marchés émergents.", en: "Developing AI solutions tailored to the realities of emerging markets." },
             },
             {
-                icon: "💳",
+                icon: fintech,
                 title: { fr: "Fintech & Inclusion", en: "Fintech & Inclusion" },
                 desc: { fr: "Services financiers accessibles pour les populations non bancarisées.", en: "Accessible financial services for unbanked populations." },
             },
             {
-                icon: "🎓",
+                icon: education,
                 title: { fr: "Éducation & Formation", en: "Education & Training" },
                 desc: { fr: "Plateformes d'apprentissage intelligentes pour démocratiser l'accès au savoir.", en: "Smart learning platforms to democratize access to knowledge." },
             },
             {
-                icon: "🌍",
+                icon: responsability,
                 title: { fr: "Impact Social", en: "Social Impact" },
                 desc: { fr: "Chaque startup conçue pour résoudre un problème réel et créer un changement durable.", en: "Every startup designed to solve a real problem and create lasting change." },
             },
@@ -76,11 +81,11 @@ export const t = {
         btn2: { fr: "En savoir plus", en: "Learn more" },
     },
     footer: {
-        desc: { fr: "AI Venture Studio haitien — Nous construisons des startups technologiques a fort impact social pour transformer les marches emergents.", en: "Haitian AI Venture Studio — We build high-impact tech startups to transform emerging markets." },
+        desc: { fr: "AI Venture Studio haïtien — Nous construisons des startups technologiques à fort impact social pour transformer les marchés émergents.", en: "Haitian AI Venture Studio — We build high-impact tech startups to transform emerging markets." },
         links: { fr: "Liens rapides", en: "Quick links" },
         contact: { fr: "Contact", en: "Contact" },
-        rights: { fr: "Tous droits reserves.", en: "All rights reserved." },
-        built: { fr: "Concu et developpe par IMPACTIS Group", en: "Designed & built by IMPACTIS Group" },
+        rights: { fr: "Tous droits réservés.", en: "All rights reserved." },
+        built: { fr: "Conçu et développé par IMPACTIS Group", en: "Designed & built by IMPACTIS Group" },
     },
     about_page: {
         founder: {
@@ -89,43 +94,43 @@ export const t = {
             role: { fr: "Founder & CEO — Startup Expert", en: "Founder & CEO — Startup Expert" },
             photo: riche,
             linkedin: "https://www.linkedin.com/in/richefleurinord/",
-            bio2: { fr: "Economiste-statisticien de formation, Riché FLEURINORD possede une expertise avancee en data science, intelligence artificielle et finance quantitative. Il supervise la conception et le deploiement des systemes backend, frontend ainsi que des solutions IA a travers l'ensemble des projets du groupe.", en: "Trained as an economist-statistician, Riché FLEURINORD has advanced expertise in data science, artificial intelligence and quantitative finance. He oversees the design and deployment of backend, frontend systems and AI solutions across all group projects." },
+            bio2: { fr: "Économiste-statisticien de formation, Riché FLEURINORD possède une expertise avancée en data science, intelligence artificielle et finance quantitative. Il supervise la conception et le déploiement des systèmes backend, frontend ainsi que des solutions IA à travers l'ensemble des projets du groupe.", en: "Trained as an economist-statistician, Riché FLEURINORD has advanced expertise in data science, artificial intelligence and quantitative finance. He oversees the design and deployment of backend, frontend systems and AI solutions across all group projects." },
         },
         history: {
             tag: { fr: "Notre Histoire", en: "Our Story" },
-            title: { fr: "De l'idee a l'impact", en: "From idea to impact" },
-            sub: { fr: "Innover. Batir. Transformer. Ne de la vision de Riché FLEURINORD, IMPACTIS Group est un AI Venture Studio haitien dedie a l'innovation technologique et a l'impact social. Cette ambition portee par une equipe de jeunes talents visionnaires vise a transformer des secteurs cles grace a la puissance de la technologie.", en: "Innovate. Build. Transform. Born from the vision of Riché FLEURINORD, IMPACTIS Group is a Haitian AI Venture Studio dedicated to technological innovation and social impact. This ambition carried by a team of young visionary talents aims to transform key sectors through the power of technology." },
+            title: { fr: "De l'idée à l'impact", en: "From idea to impact" },
+            sub: { fr: "Innover. Bâtir. Transformer. Né de la vision de Riché FLEURINORD, IMPACTIS Group est un AI Venture Studio haïtien dédié à l'innovation technologique et à l'impact social. Cette ambition portée par une équipe de jeunes talents visionnaires vise à transformer des secteurs clés grâce à la puissance de la technologie.", en: "Innovate. Build. Transform. Born from the vision of Riché FLEURINORD, IMPACTIS Group is a Haitian AI Venture Studio dedicated to technological innovation and social impact. This ambition carried by a team of young visionary talents aims to transform key sectors through the power of technology." },
             milestones: [
                 {
                     date: "Octobre 2024",
                     title: { fr: "Naissance d'IMPACTIS", en: "Birth of IMPACTIS" },
-                    desc: { fr: "Le nom IMPACTIS apparait pour la premiere fois durant la preparation du concours Hult Prize Foundation 2024-2025. Une vision emergente autour de l'innovation et de l'entrepreneuriat technologique.", en: "The name IMPACTIS first appeared during preparation for the Hult Prize Foundation 2024-2025 competition. An emerging vision centered on innovation and technological entrepreneurship." },
+                    desc: { fr: "Le nom IMPACTIS apparaît pour la première fois durant la préparation du concours Hult Prize Foundation 2024-2025. Une vision émergente autour de l'innovation et de l'entrepreneuriat technologique.", en: "The name IMPACTIS first appeared during preparation for the Hult Prize Foundation 2024-2025 compétition. An emerging vision centered on innovation and technological entrepreneurship." },
                 },
                 {
                     date: "2024-2025",
                     title: { fr: "EduKonekte — Hult Prize", en: "EduKonekte — Hult Prize" },
-                    desc: { fr: "Developpement d'EduKonekte, une initiative EdTech visant a ameliorer l'acces a l'education dans les communautes defavorisees grace aux technologies numeriques.", en: "Development of EduKonekte, an EdTech initiative aimed at improving access to education in underserved communities through digital technologies." },
+                    desc: { fr: "Développement d'EduKonekte, une initiative EdTech visant à améliorer l'accès à l'éducation dans les communautés défavorisées grâce aux technologies numériques.", en: "Development of EduKonekte, an EdTech initiative aimed at improving access to education in underserved communities through digital technologies." },
                 },
                 {
                     date: "2025",
                     title: { fr: "BankChurnAI — Ayiti AI Hackathon", en: "BankChurnAI — Ayiti AI Hackathon" },
-                    desc: { fr: "Participation au Ayiti AI Hackathon avec BankChurnAI Agent, une plateforme IA pour aider les banques a predire le churn client et proposer des recommandations personnalisees.", en: "Participation in the Ayiti AI Hackathon with BankChurnAI Agent, an AI platform to help banks predict customer churn and provide personalized recommendations." },
+                    desc: { fr: "Participation au Ayiti AI Hackathon avec BankChurnAI Agent, une plateforme IA pour aider les banques à prédire le churn client et proposer des recommandations personnalisées.", en: "Participation in the Ayiti AI Hackathon with BankChurnAI Agent, an AI platform to help banks predict customer churn and provide personalized recommendations." },
                 },
                 {
                     date: "03 Janvier 2026",
                     title: { fr: "IMPACTIS devient IMPACTIS Group", en: "IMPACTIS becomes IMPACTIS Group" },
-                    desc: { fr: "Lors d'une reunion historique avec Riché FLEURINORD, Micka LOUIS, Davidson RIGAUD, Vilmarson JULES, Newton FANFAN et Dalida FRANCOIS, le nom IMPACTIS Group est adopte officiellement, symbolisant la volonte de structurer un veritable groupe de startups.", en: "During a historic meeting with the full founding team, the name IMPACTIS Group was officially adopted, symbolizing the ambition to structure a true group of impact-driven startups." },
+                    desc: { fr: "Lors d'une réunion historique avec Riché FLEURINORD, Micka LOUIS, Davidson RIGAUD, Vilmarson JULES, Newton FANFAN et Dalida FRANCOIS, le nom IMPACTIS Group est adopté officiellement, symbolisant la volonté de structurer un véritable groupe de startups.", en: "During a historic meeting with the full founding team, the name IMPACTIS Group was officially adopted, symbolizing the ambition to structure a true group of impact-driven startups." },
                 },
                 {
                     date: "2026",
                     title: { fr: "KobMwen — DevExpo AI Challenge", en: "KobMwen — DevExpo AI Challenge" },
-                    desc: { fr: "Lancement de KobMwen, le projet fintech le plus ambitieux du groupe. Une plateforme IA qui vise a moderniser les tontines haitiennes et developper des mecanismes de credit alternatif adaptes aux realites locales.", en: "Launch of KobMwen, the group's most ambitious fintech project. An AI platform designed to modernize Haitian rotating savings systems and develop alternative credit mechanisms adapted to local realities." },
+                    desc: { fr: "Lancement de KobMwen, le projet fintech le plus ambitieux du groupe. Une plateforme IA qui vise à moderniser les tontines haïtiennes et développer des mécanismes de crédit alternatif adaptés aux réalités locales.", en: "Launch of KobMwen, the group's most ambitious fintech project. An AI platform designed to modernize Haitian rotating savings systems and develop alternative credit mechanisms adapted to local realities." },
                 },
             ],
         },
         team: {
-            tag: { fr: "Notre Equipe", en: "Our Team" },
-            title: { fr: "Les talents derriere IMPACTIS", en: "The talent behind IMPACTIS" },
+            tag: { fr: "Notre Équipe", en: "Our Team" },
+            title: { fr: "Les talents derrière IMPACTIS", en: "The talent behind IMPACTIS" },
             sub: { fr: "Une équipe de co-fondateurs et membres aux compétences complémentaires, unis par une vision commune.", en: "A team of co-founders and members with complementary skills, united by a common vision." },
             tab_cofounders: { fr: "Co-Fondateurs", en: "Co-Founders" },
             tab_members: { fr: "Membres", en: "Members" },
@@ -137,7 +142,7 @@ export const t = {
                     linkedin: "https://www.linkedin.com/in/mickalouis/",
                     role: { fr: "Cofondateur et directeur des opérations", en: "Co-Founder & COO" },
                     dept: { fr: "Responsable des opérations et de la stratégie", en: "Head of Operations & Strategy" },
-                    bio: { fr: "Il joue un rôle central dans la structuration, la coordination et l'exécution des initiatives du groupe. A l'origine de l'idée initiale de KobMwen, enrichie et développée collaborativement pour devenir une solution fintech complète. Économiste-statisticien avec compétences en data science, comptabilité et analyse financière.", en: "He plays a central role in structuring, coordinating and executing group initiatives. Originally conceived KobMwen, later developed collaboratively into a full fintech solution. Economist-statistician with data science, accounting and financial analysis skills." },
+                    bio: { fr: "Il joue un rôle central dans la structuration, la coordination et l'exécution des initiatives du groupe. À l'origine de l'idée initiale de KobMwen, enrichie et développée collaborativement pour devenir une solution fintech complète. Économiste-statisticien avec compétences en data science, comptabilité et analyse financière.", en: "He plays a central role in structuring, coordinating and executing group initiatives. Originally conceived KobMwen, later developed collaboratively into a full fintech solution. Economist-statistician with data science, accounting and financial analysis skills." },
                 },
                 {
                     name: "Davidson RIGAUD",
@@ -146,7 +151,7 @@ export const t = {
                     linkedin: "https://www.linkedin.com/in/rigauddavidson65/",
                     role: { fr: "Cofondateur et directeur technique", en: "Co-Founder & CTO" },
                     dept: { fr: "Responsable de la communication et de l'analyse", en: "Communication & Analytics Lead" },
-                    bio: { fr: "Il occupe un role hybride combinant expertise technique et communication. Il contribue a la modélisation de données, l'analyse statistique et la construction de rapports avancés. Son expertise en data science lui permet de développer des modèles analytiques essentiels aux solutions du groupe.", en: "He holds a hybrid role combining technical expertise and communication. He contributes to data modeling, statistical analysis and advanced reporting. His data science expertise enables him to develop analytical models essential to group solutions." },
+                    bio: { fr: "Il occupe un rôle hybride combinant expertise technique et communication. Il contribue à la modélisation de données, l'analyse statistique et la construction de rapports avancés. Son expertise en data science lui permet de développer des modèles analytiques essentiels aux solutions du groupe.", en: "He holds a hybrid role combining technical expertise and communication. He contributes to data modeling, statistical analysis and advanced reporting. His data science expertise enables him to develop analytical models essential to group solutions." },
                 },
                 {
                     name: "Dalida FRANCOIS",
@@ -155,7 +160,7 @@ export const t = {
                     linkedin: "https://www.linkedin.com/in/dalida-fran%C3%A7ois-24ba5832b/",
                     role: { fr: "Cofondatrice", en: "Co-Founder" },
                     dept: { fr: "Responsable de la technologie et de l'innovation", en: "Head of Technology & Innovation" },
-                    bio: { fr: "Experte en ingenierie, systèmes intelligents et développement frontend. Elle participe activement a la conception d'interfaces modernes et a l'amélioration de l'expérience utilisateur. Diplomée d'une licence en EEEA, elle poursuit une formation en Mechatronics, Robotics and Automation Engineering a l'ESIX Normandie.", en: "Expert in engineering, intelligent systems and frontend development. She actively contributes to designing modern interfaces and improving user experience. Holds a degree in EEEA and currently pursuing Mechatronics, Robotics and Automation Engineering at ESIX Normandie." },
+                    bio: { fr: "Experte en ingénierie, systèmes intelligents et développement frontend. Elle participe activement à la conception d'interfaces modernes et à l'amélioration de l'expérience utilisateur. Diplômée d'une licence en EEEA, elle poursuit une formation en Mechatronics, Robotics and Automation Engineering à l'ESIX Normandie.", en: "Expert in engineering, intelligent systems and frontend development. She actively contributes to designing modern interfaces and improving user experience. Holds a degree in EEEA and currently pursuing Mechatronics, Robotics and Automation Engineering at ESIX Normandie." },
                 },
                 {
                     name: "Vilmarson JULES",
@@ -164,7 +169,7 @@ export const t = {
                     linkedin: "https://www.linkedin.com/in/jules-vilmarson-2a68a5294/",
                     role: { fr: "Cofondateur", en: "Co-Founder" },
                     dept: { fr: "Responsable Produit et Tableau de bord", en: "Head of Product & Dashboard" },
-                    bio: { fr: "Il a contribué au projet BankChurnAI, principalement sur les aspects liés aux données et aux dashboards analytiques. Membre d'IMPACTIS Group, il participe aux initiatives du groupe a travers des contributions techniques et analytiques.", en: "He contributed to the BankChurnAI project, mainly on data and analytical dashboard aspects. Member of IMPACTIS Group, he participates in group initiatives through technical and analytical contributions." },
+                    bio: { fr: "Il a contribué au projet BankChurnAI, principalement sur les aspects liés aux données et aux dashboards analytiques. Membre d'IMPACTIS Group, il participe aux initiatives du groupe à travers des contributions techniques et analytiques.", en: "He contributed to the BankChurnAI project, mainly on data and analytical dashboard aspects. Member of IMPACTIS Group, he participates in group initiatives through technical and analytical contributions." },
                 },
                 {
                     name: "Newton FANFAN",
@@ -173,7 +178,7 @@ export const t = {
                     linkedin: "https://www.linkedin.com/in/newton-fanfan/",
                     role: { fr: "Cofondateur", en: "Co-Founder" },
                     dept: { fr: "Stratégie financière et commerciale", en: "Financial & Business Strategy" },
-                    bio: { fr: "Economiste-statisticien et entrepreneur, il est directeur et fondateur de NEUTRON PLUS, spécialisée dans l'octroi de micro prets. Premier partenaire de KobMwen, NEUTRON PLUS accompagne les initiatives liées a l'inclusion financiere et l'acces au micro credit.", en: "Economist-statistician and entrepreneur, founder of NEUTRON PLUS specializing in micro-loans. First KobMwen partner, NEUTRON PLUS supports financial inclusion and micro-credit access initiatives." },
+                    bio: { fr: "Économiste-statisticien et entrepreneur, il est directeur et fondateur de NEUTRON PLUS, spécialisée dans l'octroi de micro prêts. Premier partenaire de KobMwen, NEUTRON PLUS accompagne les initiatives liées à l'inclusion financière et l'accès au micro crédit.", en: "Economist-statistician and entrepreneur, founder of NEUTRON PLUS specializing in micro-loans. First KobMwen partner, NEUTRON PLUS supports financial inclusion and micro-credit access initiatives." },
                 },
             ],
             members: [
@@ -193,7 +198,7 @@ export const t = {
                     linkedin: "https://www.linkedin.com/in/mardoche-meriseme-ba6a62323/",
                     role: { fr: "Membre", en: "Member" },
                     dept: { fr: "Contributeur en planification économique", en: "Economic Planning Contributor" },
-                    bio: { fr: "Economiste et planificateur de formation, il a contribue a la réalisation du projet KobMwen. Il participe aux initiatives du groupe a travers des contributions en analyse économique et en planification.", en: "Economist and planner by training, he contributed to the KobMwen project. He participates in group initiatives through economic analysis and planning contributions." },
+                    bio: { fr: "Économiste et planificateur de formation, il a contribué à la réalisation du projet KobMwen. Il participe aux initiatives du groupe à travers des contributions en analyse économique et en planification.", en: "Economist and planner by training, he contributed to the KobMwen project. He participates in group initiatives through economic analysis and planning contributions." },
                 },
                 {
                     name: "Saint-Vil RENE",
@@ -202,7 +207,7 @@ export const t = {
                     linkedin: "https://www.linkedin.com/in/saint-vil-ren%C3%A9/",
                     role: { fr: "Membre", en: "Member" },
                     dept: { fr: "Contributeur en ingénierie et technologie", en: "Engineering & Technology Contributor" },
-                    bio: { fr: "Ingénieur informatique et économiste de formation, il a apporté une contribution au projet EduKonekte en mettant a profit ses competences techniques et economiques. Il participe aux différentes initiatives téchnologiques du groupe.", en: "Computer engineer and economist by training, he contributed to the EduKonekte project leveraging his technical and economic skills. He participates in the group's various technological initiatives." },
+                    bio: { fr: "Ingénieur informatique et économiste de formation, il a apporté une contribution au projet EduKonekte en mettant à profit ses compétences techniques et économiques. Il participe aux différentes initiatives technologiques du groupe.", en: "Computer engineer and economist by training, he contributed to the EduKonekte project leveraging his technical and economic skills. He participates in the group's various technological initiatives." },
                 },
                 {
                     name: "Abdielson LYVERT",
@@ -211,15 +216,16 @@ export const t = {
                     linkedin: "https://www.linkedin.com/in/abdielson-lyvert-99068a243/",
                     role: { fr: "Membre", en: "Member" },
                     dept: { fr: "Consultant en BI et support technique", en: "BI & Technical Support Consultant" },
-                    bio: { fr: "Spécialiste en systemes d'information et BI Analyst, il a participé au projet KobMwen en tant que consultant en appui technique. Il contribue aux réflexions techniques et analytiques liées aux projets du groupe.", en: "Information systems specialist and BI Analyst, he participated in the KobMwen project as a technical support consultant. He contributes to technical and analytical thinking across group projects." },
+                    bio: { fr: "Spécialiste en systèmes d'information et BI Analyst, il a participé au projet KobMwen en tant que consultant en appui technique. Il contribue aux réflexions techniques et analytiques liées aux projets du groupe.", en: "Information systems specialist and BI Analyst, he participated in the KobMwen project as a technical support consultant. He contributes to technical and analytical thinking across group projects." },
                 },
                 {
                     name: "Junior Wilfrid METHELUS",
                     initials: "JW",
                     photo: null,
+                    linkedin: "https://www.linkedin.com/in/junior-wilfrid-metellus-639352288/",
                     role: { fr: "Membre", en: "Member" },
                     dept: { fr: "Ingénierie logicielle et télécommunications", en: "Software Engineering & Telecom" },
-                    bio: { fr: "Ingénieur en électronique et développement logiciel, il évolue dans le secteur des télécommunications ou il contribue a l'éxploitation et l'optimisation de plateformes critiques a haute disponibilité. Passionné par la conception d'applications robustes et évolutives, il apporte son expertise en architecture logicielle et développement d'interfaces modernes au groupe.", en: "Electronics and software development engineer working in telecommunications, contributing to the operation and optimization of high-availability critical platforms. Passionate about building robust and scalable applications, he brings his expertise in software architecture and modern interface development to the group." },
+                    bio: { fr: "Ingénieur en électronique et développement logiciel, il évolue dans le secteur des télécommunications où il contribue à l'exploitation et l'optimisation de plateformes critiques à haute disponibilité. Passionné par la conception d'applications robustes et évolutives, il apporte son expertise en architecture logicielle et développement d'interfaces modernes au groupe.", en: "Electronics and software development engineer working in telecommunications, contributing to the operation and optimization of high-availability critical platforms. Passionate about building robust and scalable applications, he brings his expertise in software architecture and modern interface development to the group." },
                 },
             ],
         },
@@ -250,74 +256,70 @@ export const t = {
         },
     },
     startups_data: [
-
         {
             id: 1,
             name: "KobMwen",
-            icon: "💳",
             category: "fintech",
             status: "dev",
-            tags: ["Fintech", "IA", "Inclusion Financiere"],
+            tags: ["Fintech", "IA", "Inclusion Financière"],
             domain: "kobmwen.impactisgroup.com",
             tech: ["Next.js", "FastAPI", "Supabase", "Claude API", "Twilio", "Scikit-learn"],
             problem: {
-                fr: "70% de la population haitienne n'a pas acces aux services bancaires. Les groupes d'epargne (sols) sont informels, sans tracabilité ni historique bancaire.",
+                fr: "70% de la population haïtienne n'a pas accès aux services bancaires. Les groupes d'épargne (sols) sont informels, sans traçabilité ni historique bancaire.",
                 en: "70% of the Haitian population has no access to banking services. Savings groups (sols) are informal, with no traceability or banking history.",
             },
             solution: {
-                fr: "Plateforme numérique qui digitalise les sols, genere des scores de credit alternatifs et connecte les membres non-bancarises aux institutions de microfinance.",
+                fr: "Plateforme numérique qui digitalise les sols, génère des scores de crédit alternatifs et connecte les membres non-bancarisés aux institutions de microfinance.",
                 en: "Digital platform that digitizes sols, generates alternative credit scores and connects unbanked members to microfinance institutions.",
             },
             impact: {
-                fr: "100+ communautes digitalisées (An 1), 10K+ membres avec profil financier numerique, 3K+ acces au microcredit",
+                fr: "100+ communautés digitalisées (An 1), 10K+ membres avec profil financier numérique, 3K+ accès au microcrédit",
                 en: "100+ digitized communities (Year 1), 10K+ members with digital financial profile, 3K+ micro-credit access",
             },
             desc: {
-                fr: "Plateforme IA qui modernise les tontines haitiennes et developpe des mecanismes de credit alternatif adaptes aux realites locales.",
+                fr: "Plateforme IA qui modernise les tontines haïtiennes et développe des mécanismes de crédit alternatif adaptés aux réalités locales.",
                 en: "AI platform modernizing Haitian rotating savings systems and developing alternative credit mechanisms adapted to local realities.",
             },
         },
         {
             id: 2,
             name: "BankChurnAI",
-            icon: "🏦",
             category: "ai",
             status: "launched",
             tags: ["IA Bancaire", "Machine Learning", "Customer Retention"],
             domain: null,
             tech: ["Python", "Machine Learning", "NLP", "FR/Creole", "Data Analytics"],
             problem: {
-                fr: "Les banques haitiennes perdent des clients sans pouvoir anticiper ou comprendre les raisons du depart. Cout élevé d'acquisition vs. retention.",
+                fr: "Les banques haïtiennes perdent des clients sans pouvoir anticiper ou comprendre les raisons du départ. Coût élevé d'acquisition vs. rétention.",
                 en: "Haitian banks lose clients without being able to anticipate or understand the reasons for departure. High acquisition vs. retention cost.",
             },
             solution: {
-                fr: "Agent IA qui analyse les donnees démographiques et comportementales pour prédire le churn, identifier les raisons d'attrition et génerer des recommandations personnalisées en FR et créole haitien.",
+                fr: "Agent IA qui analyse les données démographiques et comportementales pour prédire le churn, identifier les raisons d'attrition et générer des recommandations personnalisées en FR et créole haïtien.",
                 en: "AI agent that analyzes demographic and behavioral data to predict churn, identify attrition reasons and generate personalized recommendations in FR and Haitian Creole.",
             },
             recognition: {
-                fr: "Présenté devant les executives de la BRH (Banque de la Republique d'Haiti) — apprécié pour son innovation et sa pertinence pour le secteur bancaire haitien.",
+                fr: "Présenté devant les exécutives de la BRH (Banque de la République d'Haïti) — apprécié pour son innovation et sa pertinence pour le secteur bancaire haïtien.",
                 en: "Presented to BRH (Bank of the Republic of Haiti) executives — praised for its innovation and relevance to the Haitian banking sector.",
             },
             desc: {
-                fr: "Agent IA de prédiction du churn bancaire présente au Ayiti AI Hackathon 2025, reconnu par le jury BRH.",
+                fr: "Agent IA de prédiction du churn bancaire présenté au Ayiti AI Hackathon 2025, reconnu par le jury BRH.",
                 en: "AI banking churn prediction agent presented at Ayiti AI Hackathon 2025, recognized by BRH jury.",
             },
         },
         {
             id: 3,
             name: "EduKonekte",
-            icon: "🎓",
             category: "edtech",
             status: "completed",
-            tags: ["EdTech", "Innovation Sociale", "Education"],
+            tags: ["EdTech", "Innovation Sociale", "Éducation"],
             domain: null,
             tech: ["EdTech", "Digital Learning"],
             problem: {
-                fr: "L'acces a une éducation connectée et de qualité reste limité dans les communautés défavorisées haitiennes.",
+                fr: "L'accès à une éducation connectée et de qualité reste limité dans les communautés défavorisées haïtiennes.",
                 en: "Access to connected and quality education remains limited in disadvantaged Haitian communities.",
             },
             solution: {
-                fr: "Plateforme EdTech pour connecter les jeunes des communautés défavorisées a des ressources éducatives de qualité et a des opportunités d'apprentissage.",
+                fr: "Plateforme EdTech pour connecter les jeunes des communautés défavorisées à des ressources éducatives de qualité et à des opportunités d'apprentissage.",
                 en: "EdTech platform to connect youth from disadvantaged communities to quality educational resources and learning opportunities.",
             },
             competition: {
@@ -325,7 +327,7 @@ export const t = {
                 en: "Hult Prize Foundation — global social entrepreneurship and innovation competition.",
             },
             desc: {
-                fr: "Initiative EdTech développée dans le cadre du Hult Prize Foundation 2024-2025 pour démocratiser l'acces a l'éducation en Haiti.",
+                fr: "Initiative EdTech développée dans le cadre du Hult Prize Foundation 2024-2025 pour démocratiser l'accès à l'éducation en Haïti.",
                 en: "EdTech initiative developed within the Hult Prize Foundation 2024-2025 framework to democratize access to education in Haiti.",
             },
         },
@@ -333,7 +335,7 @@ export const t = {
     contact_page: {
         tag: { fr: "Contactez-nous", en: "Contact us" },
         title: { fr: "Construisons quelque chose d'impactant ensemble", en: "Let's build something impactful together" },
-        sub: { fr: "Que vous soyez partenaire, investisseur, institution ou talent — nous sommes prets a collaborer.", en: "Whether you're a partner, investor, institution, or talent — we'd love to connect." },
+        sub: { fr: "Que vous soyez partenaire, investisseur, institution ou talent — nous sommes prêts à collaborer.", en: "Whether you're a partner, investor, institution, or talent — we'd love to connect." },
         form: {
             name: { fr: "Nom complet", en: "Full name" },
             email: { fr: "Adresse email", en: "Email address" },
@@ -342,17 +344,17 @@ export const t = {
             message: { fr: "Message", en: "Message" },
             send: { fr: "Envoyer le message", en: "Send message" },
             sending: { fr: "Envoi en cours...", en: "Sending..." },
-            success: { fr: "Message envoyé avec succes! Nous vous repondrons bientot.", en: "Message sent successfully! We'll get back to you soon." },
-            error: { fr: "Une erreur s'est produite. Veuillez reessayer.", en: "An error occurred. Please try again." },
+            success: { fr: "Message envoyé avec succès ! Nous vous répondrons bientôt.", en: "Message sent successfully! We'll get back to you soon." },
+            error: { fr: "Une erreur s'est produite. Veuillez réessayer.", en: "An error occurred. Please try again." },
             placeholder_name: { fr: "Votre nom complet", en: "Your full name" },
             placeholder_email: { fr: "votre@email.com", en: "your@email.com" },
             placeholder_org: { fr: "Votre organisation", en: "Your organization" },
-            placeholder_message: { fr: "Decrivez votre projet ou votre demande...", en: "Describe your project or request..." },
+            placeholder_message: { fr: "Décrivez votre projet ou votre demande...", en: "Describe your project or request..." },
             subjects: {
                 partnership: { fr: "Partenariat", en: "Partnership" },
                 investment: { fr: "Investissement", en: "Investment" },
                 collaboration: { fr: "Collaboration", en: "Collaboration" },
-                talent: { fr: "Récrutement", en: "Recruitment" },
+                talent: { fr: "Recrutement", en: "Recruitment" },
                 other: { fr: "Autre", en: "Other" },
             },
         },
@@ -362,7 +364,86 @@ export const t = {
             location: { fr: "Localisation", en: "Location" },
             avail: { fr: "Disponibilité", en: "Availability" },
             avail_val: { fr: "Ouvert aux collaborations internationales", en: "Open to international collaborations" },
-            location_val: { fr: "Port-au-Prince, Haiti", en: "Port-au-Prince, Haiti" },
+            location_val: { fr: "Port-au-Prince, Haïti", en: "Port-au-Prince, Haiti" },
+        },
+    },
+    services_page: {
+        badge: { fr: "Nos Services", en: "Our Services" },
+        title1: { fr: "Ce que nous faisons", en: "What we do" },
+        title2: { fr: "pour vous", en: "for you" },
+        sub: { fr: "IMPACTIS Group met son expertise en intelligence artificielle, data science et entrepreneuriat technologique au service d'individus, d'entreprises et d'institutions souhaitant innover, analyser et construire.", en: "IMPACTIS Group puts its expertise in artificial intelligence, data science and tech entrepreneurship at the service of individuals, companies and institutions looking to innovate, analyze and build." },
+        process_label: { fr: "Notre processus d'intervention", en: "Our intervention process" },
+        process: [
+            { num: "01", title: { fr: "Diagnostic", en: "Diagnosis" }, sub: { fr: "Cadrage du besoin", en: "Needs assessment" } },
+            { num: "02", title: { fr: "Collecte", en: "Collection" }, sub: { fr: "Enquête terrain & données", en: "Field survey & data" } },
+            { num: "03", title: { fr: "Analyse", en: "Analysis" }, sub: { fr: "Modélisation & insights", en: "Modeling & insights" } },
+            { num: "04", title: { fr: "Livraison", en: "Delivery" }, sub: { fr: "Rapport & solution", en: "Report & solution" } },
+            { num: "05", title: { fr: "Suivi", en: "Follow-up" }, sub: { fr: "Accompagnement continu", en: "Continuous support" } },
+        ],
+        services: [
+            {
+                label: { fr: "Recherche & Données", en: "Research & Data" },
+                title: { fr: "Enquêtes & Collecte de Données", en: "Surveys & Data Collection" },
+                desc: { fr: "Conception et déploiement d'enquêtes terrain ou numériques. Collecte structurée, questionnaires, formulaires mobiles et bases de données primaires adaptées à votre contexte local.", en: "Design and deployment of field or digital surveys. Structured collection, questionnaires, mobile forms and primary databases adapted to your local context." },
+                tags: ["Enquêtes terrain", "Formulaires digitaux", "Bases de données", "Sampling"],
+                featured: true,
+            },
+            {
+                label: { fr: "Analyse & Intelligence", en: "Analysis & Intelligence" },
+                title: { fr: "Analyse de Données & Statistiques", en: "Data Analysis & Statistics" },
+                desc: { fr: "Analyse exploratoire, descriptive et inférentielle. Tests d'hypothèses, modèles de régression, visualisations avancées et rapports scientifiques pour orienter la décision.", en: "Exploratory, descriptive and inferential analysis. Hypothesis testing, regression models, advanced visualizations and scientific reports to guide decision-making." },
+                tags: ["EDA", "Tests statistiques", "Visualisation", "Rapports"],
+                featured: false,
+            },
+            {
+                label: { fr: "Intelligence Artificielle", en: "Artificial Intelligence" },
+                title: { fr: "Machine Learning & IA", en: "Machine Learning & AI" },
+                desc: { fr: "Développement de modèles prédictifs, de classification et de scoring. Random Forest, Gradient Boosting, LLMs, agents IA et NLP multilingue (français, créole haïtien, anglais).", en: "Development of predictive, classification and scoring models. Random Forest, Gradient Boosting, LLMs, AI agents and multilingual NLP (French, Haitian Creole, English)." },
+                tags: ["ML / Deep Learning", "NLP créole", "AI Agents", "Scoring"],
+                featured: false,
+            },
+            {
+                label: { fr: "Développement Produit", en: "Product Development" },
+                title: { fr: "Développement de Plateformes Digitales", en: "Digital Platform Development" },
+                desc: { fr: "Conception et développement d'applications web et mobile. Interfaces modernes, APIs intelligentes, dashboards analytiques et solutions fintech adaptées aux marchés émergents.", en: "Design and development of web and mobile applications. Modern interfaces, intelligent APIs, analytical dashboards and fintech solutions adapted to emerging markets." },
+                tags: ["Next.js", "FastAPI", "Streamlit", "Supabase"],
+                featured: false,
+            },
+            {
+                label: { fr: "Entrepreneuriat Tech", en: "Tech Entrepreneurship" },
+                title: { fr: "Accompagnement & Création de Startups", en: "Startup Support & Creation" },
+                desc: { fr: "De l'idée au produit : accompagnement complet pour la création de startups technologiques. Idéation, validation, MVP, pitch deck, stratégie go-to-market et accès aux compétitions internationales.", en: "From idea to product: complete support for creating tech startups. Ideation, validation, MVP, pitch deck, go-to-market strategy and access to international competitions." },
+                tags: ["Idéation", "MVP", "Pitch deck", "Go-to-market"],
+                featured: false,
+            },
+            {
+                label: { fr: "Formation & Enseignement", en: "Training & Education" },
+                title: { fr: "Formation en IA, Data Science & Tech", en: "AI, Data Science & Tech Training" },
+                desc: { fr: "Formations pratiques et ateliers en data science, machine learning, Python, SQL et intelligence artificielle. Adaptées aux étudiants, professionnels et institutions haïtiennes.", en: "Practical training and workshops in data science, machine learning, Python, SQL and artificial intelligence. Adapted for Haitian students, professionals and institutions." },
+                tags: ["Python / SQL", "Ateliers ML", "Bootcamps", "Mentoring"],
+                featured: false,
+            },
+            {
+                label: { fr: "Conseil Stratégique", en: "Strategic Consulting" },
+                title: { fr: "Conseil en Transformation Numérique", en: "Digital Transformation Consulting" },
+                desc: { fr: "Audit de maturité digitale, stratégie de transformation numérique et recommandations pour intégrer l'IA dans les processus métier. Pour institutions, ONG, banques et entreprises haïtiennes et caribéennes.", en: "Digital maturity audit, digital transformation strategy and recommendations for integrating AI into business processes. For Haitian and Caribbean institutions, NGOs, banks and companies." },
+                tags: ["Audit digital", "Stratégie IA", "ONG & Institutions", "Banques"],
+                featured: false,
+            },
+            {
+                label: { fr: "Inclusion Financière", en: "Financial Inclusion" },
+                title: { fr: "Scoring de Crédit Alternatif & Fintech", en: "Alternative Credit Scoring & Fintech" },
+                desc: { fr: "Développement de systèmes de scoring alternatif, digitalisation de tontines et solutions fintech pour les populations non-bancarisées. Expertise unique sur le marché haïtien et caribéen.", en: "Development of alternative scoring systems, tontine digitization and fintech solutions for unbanked populations. Unique expertise in the Haitian and Caribbean market." },
+                tags: ["Scoring IA", "Tontines digitales", "Microcrédit", "Fintech"],
+                featured: false,
+            },
+        ],
+        cta: {
+            pre: { fr: "Travaillons ensemble", en: "Let's work together" },
+            title: { fr: "Un projet ? Un besoin en data ou en IA ?", en: "A project? A data or AI need?" },
+            sub: { fr: "Décrivez votre problème — nous avons la solution technologique.", en: "Describe your problem — we have the technological solution." },
+            btn1: { fr: "Nous contacter", en: "Contact us" },
+            btn2: { fr: "Voir nos projets", en: "See our projects" },
         },
     },
 };

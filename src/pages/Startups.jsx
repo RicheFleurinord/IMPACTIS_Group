@@ -235,13 +235,11 @@ export default function Startups() {
                                 className="bg-navy border border-white/10 rounded-2xl p-6 hover:border-gold/40 hover:-translate-y-1 transition-all duration-300 cursor-pointer group"
                             >
                                 <div className="flex items-start justify-between mb-4">
-                                    <span className="text-4xl">{startup.icon}</span>
+                                     <h3 className="font-display text-xl font-bold text-white mb-2">{startup.name}</h3>
                                     <span className={`text-xs border px-3 py-1 rounded-full ${statusColors[startup.status]}`}>
                                         {sp.status[startup.status][lang]}
                                     </span>
                                 </div>
-
-                                <h3 className="font-display text-xl font-bold text-white mb-2">{startup.name}</h3>
 
                                 <div className="flex flex-wrap gap-1 mb-3">
                                     {startup.tags.slice(0, 2).map(tag => (

@@ -13,6 +13,7 @@ export default function Navbar() {
         { to: "/", label: t.nav.home[lang] },
         { to: "/about", label: t.nav.about[lang] },
         { to: "/startups", label: t.nav.startups[lang] },
+        { to: "/services", label: t.nav.services[lang] },
         { to: "/contact", label: t.nav.contact[lang] },
     ];
 
