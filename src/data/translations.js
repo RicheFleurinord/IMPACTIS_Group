@@ -406,7 +406,7 @@ export const t = {
                 label: { fr: "Développement Produit", en: "Product Development" },
                 title: { fr: "Développement de Plateformes Digitales", en: "Digital Platform Development" },
                 desc: { fr: "Conception et développement d'applications web et mobile. Interfaces modernes, APIs intelligentes, dashboards analytiques et solutions fintech adaptées aux marchés émergents.", en: "Design and development of web and mobile applications. Modern interfaces, intelligent APIs, analytical dashboards and fintech solutions adapted to emerging markets." },
-                tags: ["Next.js", "FastAPI", "Streamlit", "Supabase"],
+                tags: ["Reactjs", "FastAPI"],
                 featured: false,
             },
             {

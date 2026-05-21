@@ -39,7 +39,7 @@ export default function ExpertiseSection() {
                             className="bg-navy border border-white/10 rounded-2xl p-6 hover:border-gold/40 hover:-translate-y-1 transition-all duration-300"
                         >
                             <div className="mb-4">
-                                {typeof item.icon === 'string' && item.icon.match(/\.(png|jpe?g|svg|webp)$/i) ? (
+                                {typeof item.icon === 'string' && item.icon.match(/^(data:image\/[^;]+;base64,|.*\.(png|jpe?g|svg|webp))(\?.*)?$/i) ? (
                                     <img src={item.icon} alt={item.title[lang] ?? ''} className="w-12 h-12 object-contain mx-auto" />
                                 ) : (
                                     <div className="text-4xl text-center">{item.icon}</div>
